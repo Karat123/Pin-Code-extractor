@@ -5,7 +5,7 @@ The required libraries are imported: pandas, re, time, selenium, and the necessa
 
 The path to the ChromeDriver executable is specified using the chromedriver_path variable.
 
-An Excel file (Blank pincodes NGO datapoint 9000.xlsx) is read into a Pandas DataFrame (df_input) with a specified sheet (Sheet1).
+An Excel file (input.xlsx) is read into a Pandas DataFrame (df_input) with a specified sheet (Sheet1).
 
 Another DataFrame (df_output) is created to store the output, containing columns for the address and pin code.
 
@@ -17,7 +17,7 @@ The script iterates over the first 1500 rows of the input DataFrame using df_inp
 
 Once the iteration is complete, the WebDriver is closed using driver.quit().
 
-The updated input DataFrame (df_input) is saved back to the same input file (Blank pincodes NGO datapoint 9000.xlsx).
+The updated input DataFrame (df_input) is saved back to the same input file (input.xlsx).
 
 To use this code, you need to ensure that you have installed the necessary libraries (pandas, selenium) and have the ChromeDriver executable (chromedriver) available at the specified path. You also need to provide the correct input file path and sheet name in the code.
 
