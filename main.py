@@ -9,7 +9,7 @@ no=0
 chromedriver_path = '/path/to/chromedriver'
 
 # Read the Excel file
-input_file = 'Blank pincodes NGO datapoint 9000.xlsx'
+input_file = 'input.xlsx'
 input_sheet = 'Sheet1'
 
 # Load the input Excel file into a DataFrame
